@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# C++
+cpp_engine/build/
+*.o
+*.out
+
+# ML artifacts
+ml/models/*.pkl
+ml/models/*.joblib
+
+# Data (don't commit raw student data)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Env / secrets
+.env
+*.pem
+
+# OS
+.DS_Store
