@@ -1,0 +1,23 @@
+{
+  "model_type": "linear_regression",
+  "feature_columns": [
+    "num_logs",
+    "avg_study_hours",
+    "std_study_hours",
+    "study_hours_trend",
+    "avg_active_recall_score",
+    "recall_score_trend",
+    "avg_rest_hours",
+    "rest_deficit_rate",
+    "avg_sessions_count",
+    "avg_distraction_events"
+  ],
+  "target_column": "target_exam_score",
+  "test_metrics": {
+    "mae": 3.845838568886863,
+    "rmse": 4.865150822539531,
+    "r2": 0.6056672474790671
+  },
+  "n_train": 158,
+  "n_test": 40
+}
